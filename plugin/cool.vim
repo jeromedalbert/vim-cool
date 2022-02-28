@@ -78,6 +78,7 @@ function! s:StopHL()
         return
     else
         silent call feedkeys("\<Plug>(StopHL)", 'm')
+        normal :
     endif
 endfunction
 
